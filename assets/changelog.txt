@@ -1,5 +1,5 @@
 01/05/2021
--   Fixed faction achievements
+-   Fixed faction achievements.
 
 10/04/2021
 -   Added challenge: Extreme resistance
