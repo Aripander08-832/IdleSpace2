@@ -23,13 +23,13 @@ export class ShopComponent
   @Input() customBuy: Decimal;
   buyOptions = [
     ONE,
+    new Decimal(0.1),
+    new Decimal(0.2),
+    new Decimal(1),
     new Decimal(10),
-    new Decimal(20),
     new Decimal(100),
     new Decimal(1e3),
-    new Decimal(1e4),
-    new Decimal(1e5),
-    new Decimal(1e6)
+    new Decimal(1e4)
   ];
 
   getPrestigeId(index: number, prestige: PrestigePoint) {
